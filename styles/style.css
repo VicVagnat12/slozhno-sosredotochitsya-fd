@@ -29,6 +29,7 @@
 .header {
   display: grid;
   margin-block-end: 50px;
+  height: 100vh;
 }
 
 .header__decor-circle::after {
@@ -217,6 +218,7 @@ article:last-of-type {
   display: grid;
   justify-items: center;
   position: relative;
+  height: 100vh;
 }
 
 .footer__heading {
