@@ -1,16 +1,57 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 :root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --main-font: "IBM Plex Mono";
+  --bg-color: #fff1f7;
+  --headings-color: #353430;
+  --text-color: #353430;
+  --accent-color: #ff8dcb;
+  --header-color: #ffc2e6;
+  --title-decor: #ff8dcb;
+  --bg-image: url(../images/cover-image-light.png);
+  --page-padding: 20px;
+  --color-opacity: rgba(53, 52, 48, 0.4);
 }
 
-.theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
+.theme-light .header__decor-circle {
+  display: none;
+}
+
+.theme-light .header__theme-menu-item {
+  color: var(--text-color, #353430);
+}
+
+.theme-light .header__theme-menu-button_active {
+  outline: 1px solid var(--text-color, #353430);
+}
+
+.theme-light .section__heading {
+  color: var(--text-color, #353430);
+}
+
+.theme-light .header__theme-menu-button:focus {
+  border-block-end: 1px solid var(--text-color, #353430);
+}
+
+.theme-light .decorated-zone::before {
+  border-top: 1px solid var(--text-color, #353430);
+  border-right: 1px solid var(--text-color, #353430);
+}
+
+.theme-light .decorated-zone::after {
+  border-bottom: 1px solid var(--text-color, #353430);
+  border-left: 1px solid var(--text-color, #353430);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --main-font: "IBM Plex Mono";
+    --bg-color: #fff1f7;
+    --headings-color: #353430;
+    --text-color: #353430;
+    --accent-color: #ff8dcb;
+    --header-color: #ffc2e6;
+    --title-decor: #ff8dcb;
+    --bg-image: url(../images/cover-image-light.png);
+    --page-padding: 20px;
+    --color-opacity: rgba(53, 52, 48, 0.4);
+  }
 }
