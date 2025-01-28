@@ -243,7 +243,6 @@ article:last-of-type {
 
   .header {
     grid-template-rows: 438px 266px auto;
-    min-height: 842px;
   }
 
   .header__heading {
