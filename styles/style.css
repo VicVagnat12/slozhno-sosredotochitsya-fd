@@ -250,6 +250,11 @@ article:last-of-type {
 
   .header {
     grid-template-rows: 438px 266px auto;
+    margin-block-end: 40px;
+  }
+
+  .header.decorated-zone::after {
+    bottom: 40px;
   }
 
   .header__heading {
@@ -323,10 +328,12 @@ article:last-of-type {
     grid-column: 2 / 4;
   }
 
+  .footer {
+    grid-template-rows: 990px;
+  }
+  
   .footer__heading {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    margin-block-start: 445px;
-    margin-block-end: 444px;
   }
 }
 
