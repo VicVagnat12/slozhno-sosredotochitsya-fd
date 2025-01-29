@@ -27,7 +27,7 @@
   display: grid;
   grid-template-rows: 225px 249px auto;
   height: 100vh;
-  margin-block-end: 50px;
+  margin-block-end: 40px;
 }
 
 .header__decor-circle::after {
