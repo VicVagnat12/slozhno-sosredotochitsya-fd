@@ -332,11 +332,13 @@ article:last-of-type {
 
   .footer.decorated-zone::after {
     bottom: 39px;
+  }
 
   .footer__heading {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 }
+
 
 @media (1024px <=width) {
   .main {
