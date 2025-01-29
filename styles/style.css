@@ -27,7 +27,7 @@
   display: grid;
   grid-template-rows: 225px 249px auto;
   height: 100vh;
-  margin-block-end: 40px;
+  margin-block-end: 30px;
 }
 
 .header__decor-circle::after {
@@ -115,6 +115,7 @@
   border-left: 1px solid var(--accent-color, #ff0070);
   align-self: end;
   justify-self: self-start;
+  bottom: 21px;
 }
 
 .decorated-zone::before {
@@ -208,7 +209,7 @@ article:last-of-type {
 }
 
 .main {
-  margin-block-end: 45px;
+  margin-block-end: 35px;
 }
 
 .footer {
@@ -216,6 +217,7 @@ article:last-of-type {
   justify-items: center;
   position: relative;
   height: 100vh;
+  grid-template-rows: 650px;
 }
 
 .footer__heading {
@@ -233,7 +235,7 @@ article:last-of-type {
   position: relative;
 }
 
-@media (780px <=width) {
+@media (768px <= width) {
   .page {
     padding: var(--page-padding, 20px);
   }
