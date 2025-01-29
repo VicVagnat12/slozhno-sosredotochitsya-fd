@@ -27,6 +27,7 @@
   display: grid;
   grid-template-rows: 225px 249px auto;
   height: 100vh;
+  margin-block-end: 50px;
 }
 
 .header__decor-circle::after {
@@ -232,7 +233,7 @@ article:last-of-type {
   position: relative;
 }
 
-@media (768px <=width) {
+@media (780px <=width) {
   .page {
     padding: var(--page-padding, 20px);
   }
