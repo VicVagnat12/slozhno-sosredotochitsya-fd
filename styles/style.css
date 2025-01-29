@@ -209,7 +209,7 @@ article:last-of-type {
 }
 
 .main {
-  margin-block-end: 35px;
+  margin-block-end: 45px;
 }
 
 .footer {
@@ -218,6 +218,10 @@ article:last-of-type {
   position: relative;
   height: 100vh;
   grid-template-rows: 650px;
+}
+
+.footer.decorated-zone::after {
+  bottom: 3px;
 }
 
 .footer__heading {
@@ -230,8 +234,8 @@ article:last-of-type {
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  margin-block-start: 278px;
-  margin-block-end: 274px;
+  justify-self: center;
+  align-self: center;
   position: relative;
 }
 
