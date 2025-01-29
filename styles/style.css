@@ -331,7 +331,7 @@ article:last-of-type {
   .footer {
     grid-template-rows: 990px;
   }
-  
+
   .footer__heading {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
@@ -381,9 +381,8 @@ article:last-of-type {
     grid-template-rows: 260px 315px 433px;
   }
 
-  .footer__heading {
-    margin-block-start: 318px;
-    margin-block-end: 315px;
+  .footer {
+    grid-template-rows: 730px;
   }
 }
 

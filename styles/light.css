@@ -11,6 +11,10 @@
   --color-opacity: rgba(53, 52, 48, 0.4);
 }
 
+.theme-light .page {
+  background-color: var(--bg-color, #fff1f7);
+}
+
 .theme-light .header__decor-circle {
   display: none;
 }
