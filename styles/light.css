@@ -62,32 +62,32 @@
   .page {
     background-color: var(--bg-color, #fff1f7);
   }
-  
+
   .header__decor-circle {
     display: none;
   }
-  
+
   .header__theme-menu-item {
     color: var(--text-color, #353430);
   }
-  
+
   .header__theme-menu-button_active {
     outline: 1px solid var(--text-color, #353430);
   }
-  
+
   .section__heading {
     color: var(--text-color, #353430);
   }
-  
+
   .header__theme-menu-button:focus {
     border-block-end: 1px solid var(--text-color, #353430);
   }
-  
+
   .decorated-zone::before {
     border-top: 1px solid var(--text-color, #353430);
     border-right: 1px solid var(--text-color, #353430);
   }
-  
+
   .decorated-zone::after {
     border-bottom: 1px solid var(--text-color, #353430);
     border-left: 1px solid var(--text-color, #353430);

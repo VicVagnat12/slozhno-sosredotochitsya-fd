@@ -210,7 +210,7 @@ article:last-of-type {
 }
 
 .main {
-  margin-block-end: 45px;
+  margin-block-end: 35px;
 }
 
 .footer {
@@ -219,6 +219,7 @@ article:last-of-type {
   height: 100vh;
   min-height: 668px;
   grid-template-rows: 651px;
+  padding-top: 10px;
 }
 
 .footer__heading {
@@ -235,7 +236,7 @@ article:last-of-type {
   align-self: center;
 }
 
-@media (768px <= width) {
+@media (768px <=width) {
   .page {
     padding: var(--page-padding, 20px);
     padding-bottom: 0;
@@ -344,7 +345,6 @@ article:last-of-type {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 }
-
 
 @media (1024px <=width) {
   .main {
