@@ -217,7 +217,6 @@ article:last-of-type {
   justify-items: center;
   position: relative;
   height: 100vh;
-  grid-template-rows: 650px;
 }
 
 .footer.decorated-zone::after {
@@ -328,10 +327,6 @@ article:last-of-type {
     grid-column: 2 / 4;
   }
 
-  .footer {
-    grid-template-rows: 990px;
-  }
-
   .footer__heading {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
@@ -379,10 +374,6 @@ article:last-of-type {
 
   .gallery__list {
     grid-template-rows: 260px 315px 433px;
-  }
-
-  .footer {
-    grid-template-rows: 730px;
   }
 }
 
