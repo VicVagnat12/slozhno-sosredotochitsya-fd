@@ -454,6 +454,5 @@ article:last-of-type {
 }
 
 .link__effects:focus-visible {
-  outline: none;
   outline: 1px solid var(--text-color, #f1b2ce);
 }
