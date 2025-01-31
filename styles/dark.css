@@ -14,3 +14,7 @@
   --page-padding: 20px;
   --color-opacity: rgba(255, 0, 112, 0.4);
 }
+
+.theme-dark .header__decor-circle {
+  display: block;
+}

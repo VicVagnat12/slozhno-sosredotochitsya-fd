@@ -40,8 +40,4 @@
   .header__decor-circle {
     display: none;
   }
-
-  .theme-dark .header__decor-circle {
-    display: block;
-  }
-}
+} 
